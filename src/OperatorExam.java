@@ -7,5 +7,21 @@ public class OperatorExam {
 		System.out.println(i1);
 		System.out.println(i2);
 		System.out.println(i3);
+		int i4 = ++ i3;
+		System.out.println(i4);
+		System.out.println(i3);
+		int i5 = i3 ++;
+		System.out.println(i5);
+		System.out.println(i3);
+		int i = 5;
+		int j = 2;
+		System.out.println(i + j);
+		System.out.println(i - j);
+		System.out.println(i * j);
+		System.out.println(i / j);
+		// Division will only show integer because both i and j are integers.
+		// If real number is wanted, at least one operand must be a real number (double).
+		System.out.println(i / (double) j);
+		System.out.println(i % j);
 	}
 }
